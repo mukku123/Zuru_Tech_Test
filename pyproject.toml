@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "pyls"
+version = "0.1.0"
+description = "A Python script to list files and directories like the ls command"
+authors = ["Your Name <your@email.com>"]
+
+[tool.poetry.scripts]
+pyls = "pyls:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
